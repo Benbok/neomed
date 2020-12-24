@@ -21,13 +21,22 @@
     "external_dependencies": {"python": [], "bin": []},
     "data": [
         'views/pacient_view.xml',
-        'security/ir.model.access.csv'
+        'views/pacient_opn.xml',
+        'reports/report.xml',
+        'reports/patient_card.xml',
+        'reports/patient_card_OPN.xml',
+        'reports/OPN.xml',
+        'reports/Perevod_GKB.xml',
+        'reports/Epicris.xml',
+        'reports/Epicrises_OPN.xml',
+        'reports/Inspection_pacient.xml',
+        'reports/Inspection_pacient_opn.xml',
+        'security/ir.model.access.csv',
     ],
     "qweb": [
     ],
     "demo": [
     ],
-
     "post_load": None,
     "pre_init_hook": None,
     "post_init_hook": None,
